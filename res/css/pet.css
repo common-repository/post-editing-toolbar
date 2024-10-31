@@ -1,0 +1,53 @@
+/***main***/
+#post-editing-toolbar .hndle,
+#post-editing-toolbar .handlediv {
+	display: none;
+}
+#post-editing-toolbar {
+	position: fixed;
+	z-index: 99999;
+	bottom: 0px;
+	color: white;
+}
+/***classes***/
+#post-editing-toolbar .vm {
+	vertical-align: middle;
+}
+/*********/
+#post-editing-toolbar .pet-block {
+	display: inline-block;
+	vertical-align: middle;
+	min-height: 34px;
+}
+#post-editing-toolbar label[for="post_status"] {
+	vertical-align: middle;
+}
+#post-editing-toolbar label[for="post_status"]:before {
+	content: '\f173';
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: -1px;
+	padding: 0 5px 0 0;
+	vertical-align: middle;
+	speak: none;
+	font: normal 20px/1 'dashicons';
+	text-decoration: none !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#post-editing-toolbar #post-status-display {
+	vertical-align: middle;
+}
+#post-editing-toolbar .edit-post-status {
+	vertical-align: middle;
+}
+#post-editing-toolbar #post-status-select {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+#post-editing-toolbar .pet-post-delete {
+	margin-left: 20px;
+	margin-right: 10px;
+}
